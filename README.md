@@ -89,6 +89,10 @@ sudo /usr/local/nginx/sbin/nginx -t
 ```
 sudo /usr/local/nginx/sbin/nginx
 ```
+- Stop nginx
+```
+sudo /usr/local/nginx/sbin/nginx -s stop
+```
 - Check if nginx is running
 ```
 ps aux |grep nginx
